@@ -10,7 +10,7 @@ import redis.clients.jedis.Protocol;
  * @Version: 1.0
  * @Description: JedisPool连接
  */
-public class JedisPollConnectionDemo {
+public class JedisPoolConnectionDemo {
     public static void main(String[] args) {
         JedisPool jedisPool = null;
         Jedis jedis = null;
