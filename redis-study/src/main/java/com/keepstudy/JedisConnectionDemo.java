@@ -12,7 +12,8 @@ public class JedisConnectionDemo {
     public static void main(String[] args) {
         Jedis jedis = null;
         try {
-            jedis = new Jedis("192.168.1.4", 6379);
+            jedis = new Jedis("127.0.0.1", 6379);
+            jedis.auth("mo121088");
             //执行ping命令，测试
             String pong = jedis.ping();
             System.out.println(pong);
