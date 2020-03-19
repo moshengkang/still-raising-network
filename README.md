@@ -1,2 +1,2 @@
 # still-raising-network
-平台重筹网
+平台众筹网
