@@ -12,6 +12,7 @@
         <module>redis-study</module>
         <module>zookeeper-study</module>
         <module>dubbo-study</module>
+        <module>spring-boot-study</module>
     </modules>
 
     <!--指定项目JDK版本-->
