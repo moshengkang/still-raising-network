@@ -1,6 +1,6 @@
 package com.keepstudy;
 
-import lombok.extern.java.Log;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Description: springboot启动器
  */
 @SpringBootApplication
-@Log
+@Slf4j
 public class SpringBooApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringBooApplication.class,args);
