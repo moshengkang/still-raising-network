@@ -13,6 +13,7 @@
         <module>zookeeper-study</module>
         <module>dubbo-study</module>
         <module>spring-boot-study</module>
+        <module>spring-cloud-parent</module>
     </modules>
 
     <!--指定项目JDK版本-->
