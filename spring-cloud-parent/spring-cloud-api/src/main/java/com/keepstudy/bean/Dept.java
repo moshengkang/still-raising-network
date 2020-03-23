@@ -2,6 +2,7 @@ package com.keepstudy.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @Author: moshengkang
@@ -11,9 +12,9 @@ import lombok.Data;
  */
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class Dept {
     private Integer deptNo;
     private String deptName;
     private String dbSource;
-
 }
