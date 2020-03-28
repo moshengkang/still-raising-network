@@ -3,6 +3,7 @@ package com.keepstudy.springcloud;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @Author: moshengkang
@@ -12,6 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @Slf4j
 @SpringBootApplication
+@EnableEurekaClient
 public class DeptConsumerApplication {
     public static void main(String[] args) {
         SpringApplication.run(DeptConsumerApplication.class,args);

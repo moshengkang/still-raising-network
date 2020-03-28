@@ -1,2 +1,8 @@
 server:
   port: 8080
+
+eureka:
+  client:
+    register-with-eureka: false #当前是微服务的调用端、消费端，不进行注册
+    service-url:
+      defaultZone: http://localhost:7000/eureka
