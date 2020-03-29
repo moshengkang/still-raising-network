@@ -16,6 +16,8 @@
         <module>spring-cloud-provider-dept-8001</module>
         <module>spring-cloud-consumer-dept-80</module>
         <module>spring-cloud-eureka-7000</module>
+        <module>spring-cloud-eureka-7001</module>
+        <module>spring-cloud-eureka-7002</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

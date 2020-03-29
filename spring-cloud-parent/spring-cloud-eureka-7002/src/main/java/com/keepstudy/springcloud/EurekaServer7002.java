@@ -9,14 +9,14 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  * @Author: moshengkang
  * @e-mial: 1634414600@qq.com
  * @Version: 1.0
- * @Description: eureka注册中心
+ * @Description: java类作用描述
  */
 @Slf4j
 @EnableEurekaServer
 @SpringBootApplication
-public class EurekaServiceAppliction {
+public class EurekaServer7002 {
     public static void main(String[] args) {
-        SpringApplication.run(EurekaServiceAppliction.class,args);
-        log.info("spring-cloud-eureka-7000=======启动成功！");
+        SpringApplication.run(EurekaServer7002.class,args);
+        log.info("spring-cloud-eureka-7002==========启动成功！");
     }
 }
