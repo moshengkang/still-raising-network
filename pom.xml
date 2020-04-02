@@ -14,6 +14,7 @@
         <module>dubbo-study</module>
         <module>spring-boot-study</module>
         <module>spring-cloud-parent</module>
+        <module>common-util</module>
     </modules>
 
     <!--指定项目JDK版本-->
