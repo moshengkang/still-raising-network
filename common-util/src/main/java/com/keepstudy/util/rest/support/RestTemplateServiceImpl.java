@@ -8,8 +8,6 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.log4j.Logger;
-import org.apache.log4j.spi.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpMethod;
@@ -28,7 +26,6 @@ import java.util.Map;
  * @Date: 2020/4/1 11:18
  * @Description: restful接口实现类
  */
-@Slf4j
 @Component
 public class RestTemplateServiceImpl implements RestTemplateService {
     @Autowired

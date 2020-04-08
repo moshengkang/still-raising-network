@@ -11,7 +11,6 @@ import java.util.Date;
  * @Date: 2020/3/25 14:53
  * @Description: 通用返回结果集封装
  */
-@Slf4j
 public class Result<T> implements Serializable {
 
     /**
